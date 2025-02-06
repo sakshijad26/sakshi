@@ -50,6 +50,20 @@
         <h2>Reviews</h2>
         <p>Share your thoughts about the class!</p>
         <img src="1.jpg" alt="Review Image">
+         <form class="review-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <select name="rating" required>
+                <option value="">Select Rating</option>
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Good</option>
+                <option value="3">3 - Average</option>
+                <option value="2">2 - Poor</option>
+                <option value="1">1 - Very Bad</option>
+            </select>
+            <textarea name="review" placeholder="Write your review here..." rows="4" required></textarea>
+            <button type="submit">Submit Review</button>
+        </form>
     </div>
 </body>
 </html>
